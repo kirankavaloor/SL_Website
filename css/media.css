@@ -1,0 +1,191 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    .headertop{
+        display: block;
+    }
+
+    .headertop marquee{
+        behavior: alternate;
+        width: 70%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .headertop{
+        display: block;
+    }
+
+    .headertop marquee{
+        behavior: alternate;
+        width: 70%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .headertop{
+        display: block;
+    }
+
+    .headertop marquee{
+        behavior: alternate;
+        width: 70%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .headertop{
+        display: block;
+    }
+
+    .headertop marquee{
+        behavior: alternate;
+        width: 70%;
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .header .logo {
+        padding: 8px 15px;
+    }
+    .header .hamburger-btn{
+        display: flex;
+        margin-right: 15px;
+    }
+    .header .nav{
+        flex: 0 0 100%;
+        max-width: 100%;
+        background-color: #ffffff;
+        border-top: 1px solid #cccccc;
+        display: none;
+    }
+    .header .nav ul li{
+        display: block;
+        margin-left: 0;
+    }
+    .header .nav ul li a{
+        color: #555555;
+        padding: 10px 0;
+    }
+
+    /* .headertop{
+        display: block;
+    }
+
+    .headertop marquee{
+        width: 100%;
+        behavior: alternate;
+    } */
+    
+    .headertop{
+        display:none;
+    }
+    .headertopmobile {
+        display: inline-block;
+        width: 300px;
+        height: 34px;
+        background-color: #0981e3;
+        border-radius: 0px 50px 50px 0px;
+        border:1px solid #000000;
+        cursor: pointer;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease;
+        box-shadow: 10px 10px 5px grey;
+    }
+
+    .headertopmobile:hover{
+        color: white;
+        box-shadow:10px 10px 5px grey;
+        background-color: #87adcc;
+    }
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+
+    .header .logo {
+        padding: 5px 10px;
+    }
+    .header .hamburger-btn{
+        display: flex;
+        margin-right: 10px;
+    }
+    .header .nav{
+        flex: 0 0 100%;
+        max-width: 100%;
+        background-color: #ffffff;
+        border-top: 1px solid #cccccc;
+        display: none;
+    }
+    .header .nav ul li{
+        display: block;
+        margin-left: 0;
+    }
+    .header .nav ul li a{
+        color: #555555;
+        padding: 8px 0;
+    }
+
+    .headertop{
+        display:none;
+    }
+    .headertopmobile {
+        display: inline-block;
+        width: 300px;
+        height: 34px;
+        background-color: #0981e3;
+        border-radius: 0px 50px 50px 0px;
+        border:1px solid #000000;
+        cursor: pointer;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease;
+        box-shadow: 10px 10px 5px grey;
+    }
+
+    .headertopmobile:hover{
+        color: white;
+        box-shadow:10px 10px 5px grey;
+        background-color: #87adcc;
+    }
+    
+  }
