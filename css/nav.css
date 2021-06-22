@@ -133,7 +133,8 @@ a{
   }
 
   .headertop marquee{
-    behavior:"alternate"; width:"50%";
+    behavior:"alternate"; 
+    width:"50%";
   }
   
 
