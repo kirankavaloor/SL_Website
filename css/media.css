@@ -70,6 +70,10 @@
         behavior: "alternate";
         width: 70%;
     }
+    .card {
+        display: none;
+        
+    }
   }
   
   /* 
@@ -196,6 +200,10 @@
         color: white;
         box-shadow:10px 10px 5px grey;
         background-color: #87adcc;
+    }
+    .card {
+        display: none;
+        
     }
     
   }

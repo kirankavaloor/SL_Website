@@ -32,17 +32,44 @@ col{
     /*  text-align: center; */
 }
 
+
+@keyframes fadeInTop{
+    0%{
+        transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fadeInSide{
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
 .home-section .cover .home-content h1{
     font-size:80px;
     color: #000000;
     margin: 0 0 15px;
     margin-top: 100px;
+    opacity: 0;
+    animation: fadeInTop 1s ease forwards;
+    animation-delay: 0.5s;
 }
 
 .home-section .cover .home-content p{
     font-size: 16px;
     color: #000000;
-   margin: 0 0 15px;
+    margin: 0 0 15px;
+     opacity: 0;
+     animation: fadeInTop 1s ease forwards;
+    animation-delay: 1s;
 }
 
 .home-section .cover .home-content button{
@@ -55,6 +82,10 @@ col{
     border-radius: 20px;
     outline: none;
     margin-top: 30px;
+    cursor: pointer;
+    opacity: 0;
+    animation: fadeInSide 1s ease forwards;
+    animation-delay: 1.5s;
 }
 
 .card {
