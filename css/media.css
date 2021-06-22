@@ -271,9 +271,9 @@
     }
     
     .home-section .cover .home-content h1{
-        font-size:40px;
+        font-size:25px;
         color: #000000;
-        margin: 0 0 15px;
+        margin: 0 0 10px;
         margin-top: 100px;
         opacity: 0;
         animation: fadeInTop 1s ease forwards;
@@ -283,14 +283,14 @@
     .home-section .cover .home-content p{
         font-size: 10px;
         color: #000000;
-        margin: 0 0 15px;
+        margin: 0 0 10px;
          opacity: 0;
          animation: fadeInTop 1s ease forwards;
         animation-delay: 1s;
     }
     
     .home-section .cover .home-content button{
-        width: 130px;
+        width: 100px;
         color: #fff;
         font-size: 10px;
         padding: 12px 0;
@@ -366,6 +366,16 @@
         box-shadow:10px 10px 5px grey;
         background-color: #87adcc;
     }
+    @keyframes fadeInTop{
+        0%{
+            transform: translateY(-50px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    
     @keyframes fadeInSide{
         0%{
             transform: translateX(-100px);
@@ -377,9 +387,9 @@
     }
     
     .home-section .cover .home-content h1{
-        font-size:40px;
+        font-size:25px;
         color: #000000;
-        margin: 0 0 15px;
+        margin: 0 0 10px;
         margin-top: 100px;
         opacity: 0;
         animation: fadeInTop 1s ease forwards;
@@ -389,14 +399,14 @@
     .home-section .cover .home-content p{
         font-size: 10px;
         color: #000000;
-        margin: 0 0 15px;
+        margin: 0 0 10px;
          opacity: 0;
          animation: fadeInTop 1s ease forwards;
         animation-delay: 1s;
     }
     
     .home-section .cover .home-content button{
-        width: 130px;
+        width: 100px;
         color: #fff;
         font-size: 10px;
         padding: 12px 0;
@@ -410,6 +420,7 @@
         animation: fadeInSide 1s ease forwards;
         animation-delay: 1.5s;
     }
+
 
     .card {
         display: none;
