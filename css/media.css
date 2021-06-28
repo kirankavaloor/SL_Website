@@ -232,22 +232,39 @@
         display: inline-block;
         width: 200px;
         height: 30px;
-        background-color: #0981e3;
-        border-radius: 0px 50px 50px 0px;
+        background-color: #9eb7e8;
+        transform: skew(35deg);
+        margin: 0 0 0 -20px;
+        /* -webkit-transform: skew(50deg);
+           -moz-transform: skew(50deg);
+             -o-transform: skew(50deg); */
+        /* border-radius: 0px 25px 20px 0px; */
         border:1px solid #000000;
-        cursor: pointer;
-        font-size: 12px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        cursor: pointer; 
         transition: all 0.5s ease;
         box-shadow: 10px 10px 5px grey;
     }
 
+    .headertopmobile a {
+        margin-top: 8px;
+        font-size: 12px;
+        color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: skew(-35deg);
+    }
+    /* font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center; */
+
+    
+
     .headertopmobile:hover{
         color: white;
         box-shadow:10px 10px 5px grey;
-        background-color: #87adcc;
+        background-color: #7aa3f5;
     }
 
     @keyframes fadeInTop{
