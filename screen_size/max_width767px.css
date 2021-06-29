@@ -39,7 +39,7 @@
         display: inline-block;
         width: 200px;
         height: 30px;
-        background-color: #9eb7e8;
+        background-color: white;
         transform: skew(35deg);
         margin: 0 0 0 -20px;
         /* -webkit-transform: skew(50deg);
@@ -55,7 +55,7 @@
     .headertopmobile a {
         margin-top: 8px;
         font-size: 12px;
-        color: #000000;
+        color: #282bdb;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -68,11 +68,15 @@
 
     
 
-    .headertopmobile:hover{
-        color: white;
+    .headertopmobile:hover {
         box-shadow:10px 10px 5px grey;
-        background-color: #7aa3f5;
+        background-color: #282bdb;
     }
+
+    .headertopmobile:hover a{
+        color: white;
+    }
+
 
     @keyframes fadeInTop{
         0%{
@@ -94,8 +98,9 @@
         }
     }
     
+    
     .home-section .cover .home-content h1{
-        font-size:25px;
+        font-size:35px;
         color: #000000;
         margin: 0 0 10px;
         margin-top: 100px;
@@ -105,7 +110,7 @@
     }
     
     .home-section .cover .home-content p{
-        font-size: 10px;
+        font-size: 15px;
         color: #000000;
         margin: 0 0 10px;
          opacity: 0;
@@ -116,7 +121,7 @@
     .home-section .cover .home-content button{
         width: 100px;
         color: #fff;
-        font-size: 10px;
+        font-size: 13px;
         padding: 12px 0;
         background-color: #000000;
         border: 0;
@@ -133,147 +138,16 @@
         display: none;
     }
 
-  }
-  
-  /* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
+    /* Conatct */
+    .contact-in:nth-child(1) {
+		flex: 50%;
+	}
 
-
-    .header .logo {
-        padding: 8px 15px;
-    }
-    .header .hamburger-btn{
-        display: flex;
-        margin-right: 15px;
-    }
-    .header .nav{
-        flex: 0 0 100%;
-        max-width: 100%;
-        background-color: #ffffff;
-        border-top: 1px solid #cccccc;
-        display: none;
-    }
-    .header .nav ul li{
-        display: block;
-        margin-left: 0;
-    }
-    .header .nav ul li a{
-        color: #555555;
-        padding: 10px 0;
-    }
-
-    /* .headertop{
-        display: block;
-    }
-
-    .headertop marquee{
-        width: 100%;
-        behavior: alternate;
-    } */
-    
-    .headertop{
-        display:none;
-    }
-    .headertopmobile {
-        display: inline-block;
-        width: 200px;
-        height: 30px;
-        background-color: #9eb7e8;
-        transform: skew(35deg);
-        margin: 0 0 0 -20px;
-        /* -webkit-transform: skew(50deg);
-           -moz-transform: skew(50deg);
-             -o-transform: skew(50deg); */
-        /* border-radius: 0px 25px 20px 0px; */
-        border:1px solid #000000;
-        cursor: pointer; 
-        transition: all 0.5s ease;
-        box-shadow: 10px 10px 5px grey;
-    }
-
-    .headertopmobile a {
-        margin-top: 8px;
-        font-size: 12px;
-        color: #000000;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transform: skew(-35deg);
-    }
-    /* font-size: 12px;
-        display: flex;
-        align-items: center;
-        justify-content: center; */
-
-    
-
-    .headertopmobile:hover{
-        color: white;
-        box-shadow:10px 10px 5px grey;
-        background-color: #7aa3f5;
-    }
-
-    @keyframes fadeInTop{
-        0%{
-            transform: translateY(-50px);
-        }
-        100%{
-            opacity: 1;
-            transform: translateY(0px);
-        }
-    }
-    
-    @keyframes fadeInSide{
-        0%{
-            transform: translateX(-100px);
-        }
-        100%{
-            opacity: 1;
-            transform: translateX(0px);
-        }
-    }
-    
-    .home-section .cover .home-content h1{
-        font-size:25px;
-        color: #000000;
-        margin: 0 0 10px;
-        margin-top: 100px;
-        opacity: 0;
-        animation: fadeInTop 1s ease forwards;
-        animation-delay: 0.5s;
-    }
-    
-    .home-section .cover .home-content p{
-        font-size: 10px;
-        color: #000000;
-        margin: 0 0 10px;
-         opacity: 0;
-         animation: fadeInTop 1s ease forwards;
-        animation-delay: 1s;
-    }
-    
-    .home-section .cover .home-content button{
-        width: 100px;
-        color: #fff;
-        font-size: 10px;
-        padding: 12px 0;
-        background-color: #000000;
-        border: 0;
-        border-radius: 20px;
-        outline: none;
-        margin-top: 30px;
-        cursor: pointer;
-        opacity: 0;
-        animation: fadeInSide 1s ease forwards;
-        animation-delay: 1.5s;
-    }
-
-    .card{
-        display: none;
-    }
+	.contact-in:nth-child(2) {
+		flex: 100%;
+	}
 
   }
+  
+  
+ 

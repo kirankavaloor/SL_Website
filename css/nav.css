@@ -120,6 +120,22 @@ a{
       color: #555555;
   }
 
+  /* header .nav ul li:hover {
+      width: 100px;
+      height: 50px;
+      background-color: #9eb7e8;
+        transform: skew(35deg);
+        margin: 0 0 0 20px;
+        border:1px solid #000000;
+        cursor: pointer; 
+        transition: all 0.5s ease;
+        box-shadow: 10px 10px 5px grey;
+  } */
+  /* header .nav ul li:hover a{
+      text-align: center;
+      align-items: center;
+  } */
+  
 
   .headertop{
       background-color: #000000;
@@ -139,5 +155,9 @@ a{
   
 
   .headertopmobile{
+      display: none;
+  }
+
+  .newnav-container-mobile{
       display: none;
   }
