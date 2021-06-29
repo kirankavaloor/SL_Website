@@ -1,0 +1,12 @@
+@media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .headertop{
+        display: block;
+    }
+
+    .headertop marquee{
+        behavior: "alternate";
+        width: 70%;
+    }
+    
+  }
