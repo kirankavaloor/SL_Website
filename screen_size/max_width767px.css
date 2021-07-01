@@ -37,8 +37,8 @@
     }
     .headertopmobile {
         display: inline-block;
-        width: 200px;
-        height: 30px;
+        width: 250px;
+        height: 50px;
         background-color: white;
         transform: skew(35deg);
         margin: 0 0 0 -20px;
@@ -53,8 +53,8 @@
     }
 
     .headertopmobile a {
-        margin-top: 8px;
-        font-size: 12px;
+        margin-top: 17px;
+        font-size: 18px;
         color: #282bdb;
         display: flex;
         align-items: center;
@@ -137,6 +137,8 @@
     .card{
         display: none;
     }
+    /* Service */
+    
 
     /* Conatct */
     .contact-in:nth-child(1) {
@@ -145,7 +147,126 @@
 
 	.contact-in:nth-child(2) {
 		flex: 100%;
-	}
+    }
+
+    .contact-in-input {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 20px;
+        border: 1px solid #fff;
+        outline: none;
+        padding-left: 5px;
+        background: transparent;
+        color: #a8cecc;
+        font-size: 18px;
+        font-weight: 300;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+
+    
+    .contact-in-textarea {
+        width: 100%;
+        height: 60px;
+        margin-bottom: 20px;
+        border: 1px solid #fff;
+        outline: none;
+        padding-top: 5px;
+        padding-left: 5px;
+        background: transparent;
+        color: #a8cecc;
+        font-size: 18px;
+        font-weight: 300;
+        font-family: 'Times New Roman', Times, serif
+    }
+    
+    
+    
+    .contact-in-btn {
+        width: 100%;
+        height: 50px;
+        border: 1px solid #fff;
+        outline: none;
+        background: transparent;
+        color: #a8cecc;
+        font-size: 18px;
+        font-weight: 300;
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer;
+    }
+    
+    /* Service */
+    .second{
+        margin-top: 20px;	
+    }
+
+    /* Inside Service */
+    /* .serviceinside-container {
+        display: none;
+    } */
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col .serviceinside-box1{
+        flex-basis: 100%;
+        position: absolute;
+        /* margin-left: 100px; */
+        box-sizing: border-box;
+        overflow: hidden;
+        box-shadow: 5px 5px 2px grey;
+    }
+
+    .serviceinside-box1{
+        width: 400px;
+        height: 50px;
+        background-color: brown;
+        color: white;
+        text-align: center;
+        margin: 20px 20px;
+        cursor: pointer;
+    }
+    .serviceinside-box2{
+        width: 400px;
+        height: 50px;
+        background-color:  rgb(197, 214, 38);
+        color: white;
+        text-align: center;
+        margin: 20px 20px;
+        cursor: pointer;
+    }
+
+    .serviceinside-box3{
+        width: 400px;
+        height: 50px;
+        background-color: rgb(37, 202, 153);
+        color: white;
+        text-align: center;
+        margin: 20px 20px;
+        cursor: pointer;
+    }
+    .serviceinside-box4{
+        width: 400px;
+        height: 50px;
+        background-color: brown;
+        color: white;
+        text-align: center;
+        margin: 20px 20px;
+        cursor: pointer;
+    }
+
+    .serviceinside-col {
+        flex-basis: 100%;
+        position: relative;
+        width: 200px;
+        height: 200px;
+        margin: 10px 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+        box-shadow: 10px 10px 5px grey;
+    }
 
   }
   

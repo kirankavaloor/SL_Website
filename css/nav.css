@@ -10,7 +10,7 @@ a{
       left: 0;
       z-index: 99;
       /* border-bottom: 1px solid #000000; */
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
       transition: all 0.5s ease;
   }
   
@@ -30,7 +30,7 @@ a{
       letter-spacing: 2px;
       text-transform: uppercase;
       transition: all 0.5s ease;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: 'Times New Roman', Times, serif;
   }
   .header .logo a i {
       font-size: 30px;
@@ -144,7 +144,7 @@ a{
       overflow: hidden;
       color: whitesmoke;
       padding: 5px;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: 'Times New Roman', Times, serif;
       
   }
 

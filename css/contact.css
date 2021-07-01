@@ -34,7 +34,7 @@
 
 .contact-wrap{
     width: 100%;
-    height: auto;
+    height: 750px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -45,6 +45,7 @@
 .contact-in{
 	margin: 0px 0px;
 	border-radius: 10px;
+	/* margin-top: 750px;	 */
 	/* opacity: 0.5; */
 }
 
@@ -80,7 +81,7 @@
 	margin-bottom: 20px;
 	opacity: 1;
     /* padding: 10px; */
-}
+}	
 
 .contact-in h2 {
 	font-size: 15px;
@@ -127,7 +128,7 @@
 	color: #a8cecc;
 	font-size: 12px;
 	font-weight: 300;
-	font-family: "Great Vibes", cursive;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .contact-in-input::placeholder {
@@ -146,7 +147,7 @@
 	color: #a8cecc;
 	font-size: 12px;
 	font-weight: 300;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Times New Roman', Times, serif
 }
 
 .contact-in-textarea::placeholder {
@@ -162,7 +163,7 @@
 	color: #a8cecc;
 	font-size: 12px;
 	font-weight: 300;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Times New Roman', Times, serif;
 	cursor: pointer;
 }
 
@@ -203,7 +204,7 @@
 
 .contact-in iframe {
 	width: 100%;
-	height: 650px;
+	height: 750px;
 	/* background: #839ff2; */
 	opacity: 0.5;
 }

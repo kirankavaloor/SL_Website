@@ -20,6 +20,37 @@ $(document).ready(function(){
         }
     })
 
-    
+    $("#IOS").click(function(){
+        $(".box1").show();
+        $(".box2").hide();
+        $(".box3").hide();
+        $(".box4").hide();
+      });
+
+      $("#Android").click(function(){
+        $(".box2").show();
+        $(".box1").hide();
+        $(".box3").hide();
+        $(".box4").hide();
+      });
+
+      $("#Web").click(function(){
+        $(".box3").show();
+        $(".box1").hide();
+        $(".box2").hide();
+        $(".box4").hide();
+      });
+
+      $("#IOT").click(function(){
+        $(".box4").show();
+        $(".box1").hide();
+        $(".box2").hide();
+        $(".box3").hide();
+      });
+
 
 })
+
+$.scrollIt({
+    topOffset: -50
+});

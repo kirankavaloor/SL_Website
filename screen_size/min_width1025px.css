@@ -8,5 +8,9 @@
         behavior: "alternate";
         width: 70%;
     }
+
+    .second{
+        margin-top: 20px;	
+    }
     
   }
